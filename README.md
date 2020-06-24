@@ -2,6 +2,48 @@
 
 Firmware sources for the Social Distancing Badge - https://www.kickstarter.com/projects/sensordots/the-social-distancing-badge?ref=user_menu
 
+## Menu
+
+To operate the menu double click to enter menu. Single click to rotate through menu options. Double click to enter sub-menu. Single click to change value. Double click to exit sub-menu. Menu will timeout after 5 seconds.
+
+The menu has the following hierarchy:
+
+ - S - Speed
+   - 20 - 20Hz
+   - 5  - 5Hz
+   - 1  - 1Hz
+ 
+ - U - Units
+   - FE - Feet
+   - In - Inches
+   - FI - Feet.Inches
+   - SI - Metric Units
+ 
+ - d - Decimal Point Location (used when in metric, when in imperial the decimal point location will change automatically)
+   - mm - millimeters
+   - cm - centimeters
+   - m  - meters
+ 
+ - L - Loudness
+   - OF - Sound off
+   - LO - Sound half volume
+   - hI - Sound full volume
+ 
+ - F - Field of View (angle)
+   - 27 - 27 degrees
+   - 15 - 15 degrees
+   - 21 - 21 degrees
+ 
+ - E - Effect (sound)
+    - 0 - Geiger counter
+    - 1 - Varying frequency clicks
+    - 2 - Alien
+ 
+ - h - Effect Threshold (distance at which the threshold will activate; value will be meters or feet depending on whether in metric or imperial modes)
+ 
+ When out of the menu hold button to turn off. When off, hold button to turn on.
+
+
 ## Installation
 
 For setting up the Arduino environment for development or firmware update, please see https://sensordots.org/portmuxr_arduino (the instructions currently reference the Port MuxR, but they are the same for the Social Distancing Badge).
