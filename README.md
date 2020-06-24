@@ -16,7 +16,7 @@ The menu has the following hierarchy:
  - U - Units
    - FE - Feet
    - In - Inches
-   - FI - Feet.Inches
+   - FI - Feet - Inches (display feet as left value and the remaining inches on the right)
    - SI - Metric Units
  
  - d - Decimal Point Location (used when in metric, when in imperial the decimal point location will change automatically)
