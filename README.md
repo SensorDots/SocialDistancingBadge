@@ -63,12 +63,14 @@ The ICSP programming pins also broken out to the top of the board. These can be 
 
 They all have defines in the .ino file, so you can use them there:
 
+```
 #define GPIO_D 7
 #define GPIO_E 8
 #define GPIO_F 9
 #define GPIO_1 12
 #define GPIO_3 13
 #define GPIO_4 11
+```
 
 ## Installation
 
