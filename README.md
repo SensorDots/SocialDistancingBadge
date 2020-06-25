@@ -43,6 +43,32 @@ The menu has the following hierarchy:
  
  When out of the menu hold button to turn off. When off, hold button to turn on.
 
+## GPIO
+There are three GPIO pins broken out to the ABCDEF pins on the right hand side of the board. They have the following pinout:
+- A - VCC (Battery Voltage - 3.1-3.6V)
+- B - GND
+- C - GND
+- D - PD7 - Arduino Pin 7
+- E - PB0 - Arduino Pin 8
+- F - PB1 - Arduino Pin 9
+
+The ICSP programming pins also broken out to the top of the board. These can be used for programming via SPI or also extra GPIO pins. They have the following pinout:
+
+- 1 - PB4 - Arduino Pin 12 (MISO)
+- 2 - VCC (Battery Voltage - 3.1-3.6V)
+- 3 - PB5 - Arduino Pin 13 (SCK)
+- 4 - PB3 - Arduino Pin 11 (MOSI)
+- 5 - RST
+- 6 - GND
+
+They all have defines in the .ino file, so you can use them there:
+
+#define GPIO_D 7
+#define GPIO_E 8
+#define GPIO_F 9
+#define GPIO_1 12
+#define GPIO_3 13
+#define GPIO_4 11
 
 ## Installation
 
