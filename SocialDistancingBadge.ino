@@ -56,9 +56,13 @@
 #define SPK_DC         5
 #endif
 #define BUTTON         20
-#define GPIO_F         9
-#define GPIO_E         8
-#define GPIO_D         7
+
+#define GPIO_D 7
+#define GPIO_E 8
+#define GPIO_F 9
+#define GPIO_1 12
+#define GPIO_3 13
+#define GPIO_4 11
 
 #define RX 0
 #define TX 1
