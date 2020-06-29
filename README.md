@@ -47,7 +47,7 @@ The menu has the following hierarchy:
 
 To access the debug menu:
 
-- Double click the button until you see 5 on the left of the screen.
+- Double click the button to activate the menu and you will see 5 on the left of the screen.
 - Hold down the button until you see "d8 7" (this means deBug Test).
 - Single click to cycle through the debug menu options.
 
