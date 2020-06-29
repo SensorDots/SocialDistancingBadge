@@ -42,6 +42,22 @@ The menu has the following hierarchy:
  - h - Effect Threshold (distance at which the threshold will activate; value will be meters or feet depending on whether in metric or imperial modes)
  
  When out of the menu hold button to turn off. When off, hold button to turn on.
+ 
+## Debug Menu
+
+To access the debug menu:
+
+- Double click the button until you see 5 on the left of the screen.
+- Hold down the button until you see "d8 7" (this means deBug Test).
+- Single click to cycle through the debug menu options.
+
+The debug settings are as follows (To activate the current menu option, double click the button when the setting is shown):
+
+- "d8 7" - deBug Test. This will cycle through an LED, LCD and Speaker test.
+- "d8 C" - deBug Calibrate. This will offset and crosstalk (if using a window cover) calibrate the sensor to a white target that is 200mm away. The LED will turn off when calibrating and turn back on when done. Click again to return to normal operation.
+- "d8 d" - deBug delete calibration. This will clear any previous calibration settings.
+
+
 
 ## GPIO
 There are three GPIO pins broken out to the ABCDEF pins on the right hand side of the board. They have the following pinout:
