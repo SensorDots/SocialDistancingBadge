@@ -43,9 +43,9 @@ The menu has the following hierarchy:
  
  When out of the menu hold button to turn off. When off, hold button to turn on.
  
-## Debug Menu
+## Hidden Debug Menu
 
-To access the debug menu:
+To access the hidden debug menu:
 
 - Double click the button to activate the menu and you will see 5 on the left of the screen.
 - Hold down the button until you see "d8 7" (this means deBug Test).
