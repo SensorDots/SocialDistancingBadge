@@ -1074,16 +1074,15 @@ void loop() {
         }
         else if ( units == FEETINCH)
         {
-          uint8_t LCDBuffer[4] = { 0 };
+          int distanceInch = distanceFeet - (distanceFeet / 1000) * 1000;
+          distanceFeet = (distanceFeet - distanceInch) / 1000;
+          distanceInch = 12 * distanceInch / 1000;
 
+          uint8_t LCDBuffer[4] = { 0 };
           LCDBuffer[0] = (int)(distanceFeet / 10) % 10;
           LCDBuffer[1] = (int)(distanceFeet) % 10;
-
-          double feetRemainder = distanceFeet - (int)distanceFeet;
-          int inchRemainder = feetRemainder * 12;
-
-          LCDBuffer[2] = (int)(inchRemainder / 10) % 10;
-          LCDBuffer[3] = (int)(inchRemainder) % 10;
+          LCDBuffer[2] = (int)(distanceInch / 10) % 10;
+          LCDBuffer[3] = (int)(distanceInch) % 10;
 
           lcdPrintColon();
           lcdPrint(LCDBuffer);
