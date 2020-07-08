@@ -32,7 +32,7 @@
 #include "ToneAC2.h"
 #include <EEPROM.h>
 
-#define VERSION 1.03
+#define VERSION 1.04
 
 /* Averaging history size */
 #define HISTORY_SIZE 10
