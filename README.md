@@ -178,4 +178,5 @@ You should get the following output:
 ## Firmware Versions
 The Social Distancing Badge can be queried for its firmware version on startup (re-insert the battery):
 
-   - [F1.03](https://raw.githubusercontent.com/SensorDots/SocialDistancingBadge/master/releases/F1.03.hex) - Kickstarter Release Version - [commit](https://github.com/SensorDots/SocialDistancingBadge/tree/de15916056ef4eb462cb7ae99f545dcebe0092ae)
+  - [F1.04](https://raw.githubusercontent.com/SensorDots/SocialDistancingBadge/master/releases/F1.04.hex) - Fix for Feet/Inch Display - [commit](https://github.com/SensorDots/SocialDistancingBadge/tree/f4603b75b066528e38b5c61e8c425dadc5e3d635)
+  - [F1.03](https://raw.githubusercontent.com/SensorDots/SocialDistancingBadge/master/releases/F1.03.hex) - Kickstarter Release Version - [commit](https://github.com/SensorDots/SocialDistancingBadge/tree/de15916056ef4eb462cb7ae99f545dcebe0092ae)
