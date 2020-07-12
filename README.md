@@ -4,6 +4,8 @@ Firmware sources for the Social Distancing Badge - https://www.kickstarter.com/p
 
 ## Menu
 
+Powering on/off - When out of the menu, hold the button to turn off (the display will go blank). When off, hold button to turn on.
+
 To operate the menu double click to enter menu. Single click to rotate through menu options. Double click to enter sub-menu. Single click to change value. Double click to exit sub-menu. Menu will timeout after 5 seconds.
 
 The menu has the following hierarchy:
@@ -40,9 +42,7 @@ The menu has the following hierarchy:
     - 2 - Alien
  
  - h - Effect Threshold (distance at which the threshold will activate; value will be meters or feet depending on whether in metric or imperial modes)
- 
- When out of the menu hold button to turn off. When off, hold button to turn on.
- 
+  
 ## Hidden Debug Menu
 
 To access the hidden debug menu:
