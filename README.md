@@ -70,7 +70,7 @@ There are three ATMEGA328PB GPIO pins broken out to the ABCDEF pins on the right
 - E - PB0 - Arduino Pin 8
 - F - PB1 - Arduino Pin 9
 
-The ICSP programming pins also broken out to the top of the board. These can be used for programming via SPI or also extra GPIO pins. They have the following pinout:
+The ICSP programming pins are also broken out to the top of the board. These can be used for programming via SPI or also as extra GPIO pins. They have the following pinout:
 
 - 1 - PB4 - Arduino Pin 12 (MISO)
 - 2 - VCC (Battery Voltage - 3.1-3.6V)
