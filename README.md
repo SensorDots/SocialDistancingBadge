@@ -59,7 +59,7 @@ The debug settings are as follows (To activate the current menu option, double c
 - "d8 C" - deBug Calibrate. This will offset and crosstalk (if using a window cover) calibrate the sensor to a white target that is 200mm away. The LED will turn off when calibrating and turn back on when done. Click again to return to normal operation.
 - "d8 d" - deBug delete calibration. This will clear any previous calibration settings.
 
-
+These settings are written to the internal EEPROM on the microcontroller (unlike the main menu options which are wiped upon removing the battery).
 
 ## GPIO
 There are three GPIO pins broken out to the ABCDEF pins on the right hand side of the board. They have the following pinout:
