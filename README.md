@@ -8,7 +8,7 @@ Please note that menu selections are erased once power is removed from the devic
 
 Powering on/off - When out of the menu, hold the button to turn the badge off (the display will go blank). When off, hold button to turn the badge back on. The badge will automatically turn off after a few minutes if placed into a pocket/has a constant target that is within a few centimeters.
 
-To operate the menu double click to enter menu. Single click to rotate through menu options. Double click to enter sub-menu. Single click to change value. Double click to exit sub-menu. Menu will timeout after 5 seconds.
+To operate the menu, double click the button to enter the menu. Once in the menu, single click the button to rotate through the menu options. Once you are on the option you require, double click to enter that option's sub-menu. Now you can single click to change the option's value. Double click to exit the sub-menu and you can cycle through further menu options. The menu will timeout after 5 seconds.
 
 The menu has the following hierarchy:
 
