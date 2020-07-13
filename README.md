@@ -90,9 +90,11 @@ They all have defines in the .ino file, so you can use them there:
 #define GPIO_4 11
 ```
 
-## Installation
+## Firmware Programming
 
-For setting up the full Arduino environment for development or firmware update, please see https://sensordots.org/portmuxr_arduino (the instructions currently reference the Port MuxR, but they are the same for the Social Distancing Badge).
+For setting up the full Arduino environment for development or firmware updates, please see https://sensordots.org/portmuxr_arduino (the instructions currently reference the Port MuxR, but they are the same for the Social Distancing Badge).
+
+-----
 
 To just load the latest precompiled hex file, without installing the Arduino IDE you can use [avrdude](https://www.nongnu.org/avrdude/) ( [Windows Version](http://download.savannah.gnu.org/releases/avrdude/avrdude-6.3-mingw32.zip) ) with the following command (substitute /dev/ttyUSBx with comX under Windows). You may need to replace the avrdude.conf file from here - https://github.com/SensorDots/SocialDistancingBadge/blob/master/doc/avrdude.conf
 
