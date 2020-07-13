@@ -62,7 +62,7 @@ The debug settings are as follows (To activate the current menu option, double c
 These settings are written to the internal EEPROM on the microcontroller (unlike the main menu options which are wiped upon removing the battery).
 
 ## GPIO
-There are three GPIO pins broken out to the ABCDEF pins on the right hand side of the board. They have the following pinout:
+There are three ATMEGA328PB GPIO pins broken out to the ABCDEF pins on the right hand side of the board. They have the following pinout:
 - A - VCC (Battery Voltage - 3.1-3.6V)
 - B - GND
 - C - GND
