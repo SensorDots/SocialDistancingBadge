@@ -4,6 +4,8 @@ Firmware sources for the Social Distancing Badge - https://www.kickstarter.com/p
 
 ## Menu
 
+Please note that menu selections are erased once power is removed from the device (i.e. if you remove the battery).
+
 Powering on/off - When out of the menu, hold the button to turn off (the display will go blank). When off, hold button to turn on. The badge will automatically turn off after a few minutes if placed into a pocket/has a constant target that is within a few centimeters.
 
 To operate the menu double click to enter menu. Single click to rotate through menu options. Double click to enter sub-menu. Single click to change value. Double click to exit sub-menu. Menu will timeout after 5 seconds.
