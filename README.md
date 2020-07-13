@@ -1,4 +1,4 @@
-# SensorDots Social Distancing Badge Firmware
+# SensorDots Social Distancing Badge
 
 Firmware sources for the Social Distancing Badge - https://www.kickstarter.com/projects/sensordots/the-social-distancing-badge?ref=user_menu
 
@@ -182,3 +182,7 @@ The Social Distancing Badge can be queried for its firmware version on startup (
 
   - [F1.04](https://raw.githubusercontent.com/SensorDots/SocialDistancingBadge/master/releases/F1.04.hex) - Fix for Feet/Inch Display - [commit](https://github.com/SensorDots/SocialDistancingBadge/tree/dd6b8fbf8eaf43e7e10bf8af431262f737108c4c)
   - [F1.03](https://raw.githubusercontent.com/SensorDots/SocialDistancingBadge/master/releases/F1.03.hex) - Kickstarter Release Version - [commit](https://github.com/SensorDots/SocialDistancingBadge/tree/de15916056ef4eb462cb7ae99f545dcebe0092ae)
+
+## Battery Details
+
+The Social Distancing Badge comes with a battery holder that accepts a rechargeable 3.6V LIR2450. The charge circuit actually charges this battery at 4.2V and can also charge any other 3.6V (with a 4.2V float charge voltage) lithium cell. To do this it uses the MCP73831T-2ACI (4.2V variant) - https://ww1.microchip.com/downloads/en/DeviceDoc/MCP73831-Family-Data-Sheet-DS20001984H.pdf
