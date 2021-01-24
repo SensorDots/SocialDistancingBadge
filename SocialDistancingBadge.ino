@@ -32,7 +32,7 @@
 #include "ToneAC2.h"
 #include <EEPROM.h>
 
-#define VERSION 1.03
+#define VERSION 1.04
 
 /* Averaging history size */
 #define HISTORY_SIZE 10
@@ -56,9 +56,13 @@
 #define SPK_DC         5
 #endif
 #define BUTTON         20
-#define GPIO_F         9
-#define GPIO_E         8
-#define GPIO_D         7
+
+#define GPIO_D 7
+#define GPIO_E 8
+#define GPIO_F 9
+#define GPIO_1 12
+#define GPIO_3 13
+#define GPIO_4 11
 
 #define RX 0
 #define TX 1
@@ -1070,16 +1074,15 @@ void loop() {
         }
         else if ( units == FEETINCH)
         {
-          uint8_t LCDBuffer[4] = { 0 };
+          int distanceInch = distanceFeet - (distanceFeet / 1000) * 1000;
+          distanceFeet = (distanceFeet - distanceInch) / 1000;
+          distanceInch = 12 * distanceInch / 1000;
 
+          uint8_t LCDBuffer[4] = { 0 };
           LCDBuffer[0] = (int)(distanceFeet / 10) % 10;
           LCDBuffer[1] = (int)(distanceFeet) % 10;
-
-          double feetRemainder = distanceFeet - (int)distanceFeet;
-          int inchRemainder = feetRemainder * 12;
-
-          LCDBuffer[2] = (int)(inchRemainder / 10) % 10;
-          LCDBuffer[3] = (int)(inchRemainder) % 10;
+          LCDBuffer[2] = (int)(distanceInch / 10) % 10;
+          LCDBuffer[3] = (int)(distanceInch) % 10;
 
           lcdPrintColon();
           lcdPrint(LCDBuffer);
